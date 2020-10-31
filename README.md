@@ -3,10 +3,10 @@ event editor
 ```
 let eve=evEdit({ctx:ctx,key:key,cash:{} }) //key is ^v<>ABXYLR
 eve.add(`#F00X00Y00
-＠back.jpg //背景
-＠＜aaaa.jpg　//左
-＠＠aaaa.xyz //中央
-＠＞rrrr.jjj //右
+＠back.jpg //背景基本はフル
+＠＜aaaa.jpg,1.2　//左 scale //等倍で拡大しない。
+＠＠aaaa.xyz,1.3 //中央
+＠＞rrrr.jjj,1.5 //右
 ％BGM
 ％％SE
 
